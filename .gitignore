@@ -4,11 +4,13 @@
 .env.production
 .env.staging
 
-# Virtual environments
+# Virtual environments (should never be committed)
 .venv/
 venv/
 env/
 ENV/
+server/.venv/
+client/.venv/
 
 # Python cache
 __pycache__/
