@@ -1,0 +1,62 @@
+{
+  "knowledge_base": [
+    {
+      "topic_id": "heart_rate",
+      "topic_name": "Detak Jantung (Heart Rate)",
+      "sources": [
+        "WHO",
+        "Kemenkes",
+        "American Heart Association"
+      ],
+      "data": {
+        "dewasa": {
+          "normal_range_bpm": "60-100",
+          "notes": "Atlet bisa 40-60 bpm.",
+          "warning_signs": ">100 atau <60 (bukan atlet) → konsultasi dokter."
+        },
+        "anak": {
+          "notes": "Lebih cepat dari dewasa.",
+          "normal_ranges": [
+            {
+              "age_group": "Bayi (0-1 bln)",
+              "range_bpm": "100-205",
+              "condition": "Bangun"
+            },
+            {
+              "age_group": "Bayi (1 bln-1 th)",
+              "range_bpm": "100-190",
+              "condition": "Bangun"
+            },
+            {
+              "age_group": "Remaja (13-17 th)",
+              "range_bpm": "60-100",
+              "condition": "Istirahat"
+            }
+          ],
+          "warning_signs": "Perubahan tiba-tiba disertai pusing/sesak → periksa."
+        }
+      }
+    },
+    {
+      "topic_id": "body_temperature",
+      "topic_name": "Suhu Tubuh",
+      "sources": [
+        "WHO",
+        "Kemenkes"
+      ],
+      "data": {
+        "umum": {
+          "fever_threshold_celsius": "38.0",
+          "hypothermia_threshold_celsius": "35.0",
+          "notes": "Lokasi pengukuran memengaruhi hasil."
+        },
+        "dewasa": {
+          "normal_range_celsius": "36.5 - 37.6"
+        },
+        "anak": {
+          "normal_range_celsius": "36.5 - 37.5"
+        }
+      }
+    }
+  ]
+}
